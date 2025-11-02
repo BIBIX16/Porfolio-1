@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;600&display=swap');
+
+@font-face {
+  font-family: 'Karmatic Arcade';
+  src: url('fonts/KarmaticArcade.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Estilo base */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.titulo {
+  font-family: 'Karmatic Arcade', sans-serif;
+  color: #ff0033;
+  text-shadow: 0 0 6px #ff0033, 0 0 12px #ff0033; /* antes 15px y 30px */
+  font-size: 2.8rem;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+/* Encabezado con rayas rojas */
+header {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(90deg, #000, #1a0000);
+  border-bottom: 3px solid #ff0033;
+  box-shadow: 0 0 15px #ff0033;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover, nav a.activo {
+  color: #ff0033;
+  text-shadow: 0 0 10px #ff0033;
+}
+
+/* Secciones */
+.seccion {
+  padding: 100px 10%;
+  border-top: 1px solid rgba(255, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+}
+
+.seccion h2 {
+  font-family: 'Lexend', sans-serif;
+  color: #ff0033;
+  text-shadow: 0 0 8px #ff0033;
+  letter-spacing: 1px;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px 0;
+  border-top: 2px solid #ff0033;
+  background: #0a0000;
+  color: #888;
+  font-size: 0.9rem;
+}
