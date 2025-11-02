@@ -1,41 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="stylesheet" href="style.css">
+<script defer src="tema.js"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bilal Darghal | Portafolio</title>
+  <title>Bilal Darghal</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    
+     <div class="selector-tema">
+    <button id="boton-tema">
+      <img src="imag/brocha.png" alt="Cambiar tema">
+    </button>
+    <div id="menu-tema" class="menu-tema">
+      <div class="color" data-color="rojo" style="background:#ff0033;"></div>
+      <div class="color" data-color="amarillo" style="background:#ffc400;"></div>
+      <div class="color" data-color="azul" style="background:#00bfff;"></div>
+      <div class="color" data-color="verde" style="background:#00ff66;"></div>
+    </div>
+  </div>
 <header>
   <h1 class="titulo">Bilal Darghal</h1>
   <nav>
     <ul>
-      <li><a href="#inicio" class="activo">Inicio</a></li>
-      <li><a href="#proyectos">Proyectos</a></li>
-      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="index.html" class="activo">Inicio</a></li>
+      <li><a href="proyectos.html">Proyectos</a></li>
+      <li><a href="sobre-mi.html">Sobre mí</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="mas.html">Más</a></li>
     </ul>
   </nav>
 </header>
 
-  <section id="inicio" class="seccion">
+<section id="inicio" class="seccion">
     <h2>Bienvenido a mi Portafolio</h2>
     <p>Explora mis proyectos, ideas y creaciones tecnológicas.</p>
   </section>
-<section class="seccion" id="proyectos">
-  <h2>Mis Proyectos</h2>
 
-  <div class="grid-proyectos">
-  <a href="proyectos.html" class="tarjeta">Proyectos</a>
-  <a href="sobre-mi.html" class="tarjeta">Sobre mí</a>
-  <a href="contacto.html" class="tarjeta">Contacto</a>
-  <a href="mas.html" class="tarjeta">Más</a>
-</div>
+<section id="proyectos" class="seccion">
+    <h2>INDEX</h2>
+    <div class="grid-proyectos">
+      <a href="proyectos.html" class="tarjeta">Proyectos</a>
+      <a href="sobre-mi.html" class="tarjeta">Sobre mí</a>
+      <a href="contacto.html" class="tarjeta">Contacto</a>
+      <a href="mas.html" class="tarjeta">Más</a>
+    </div>
+  </section>
 
-</section>
-
-  <footer>
-    <p>© 2025 Bilal Darghal | Portafolio</p>
-  </footer>
+<footer>
+  <p>© 2025 Bilal Darghal | Portafolio</p>
+</footer>
 </body>
 </html>
